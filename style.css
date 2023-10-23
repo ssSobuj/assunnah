@@ -1,0 +1,33 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+
+body{
+    padding: 20px;
+    max-width: 1300px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-img img{
+  max-width: 150px;
+}
+
+.container ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    
+}
+
+.container ul li a{
+    text-decoration: none;
+    color: black;
+    background-color: #A7DB1B;
+    padding: 5px 8px;
+    border-radius: 3px;
+}
